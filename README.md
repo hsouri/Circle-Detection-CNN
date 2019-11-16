@@ -68,7 +68,7 @@ By default validation is using the my pretrained model. If you're willing to tes
 
 
 # Traing Loss
-Losses for trainig the model will be saved in the `out.txt` file. Trinig loss of 50 epoch is as follows:
+Losses for trainig the model will be saved in the `out.txt` file. Trinig loss of 50 epochs is as follows:
 ![Training Loss](screenshot/loss.png)
 
 
