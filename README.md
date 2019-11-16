@@ -21,7 +21,7 @@ git clone https://github.com/hsouri/Cirlcle-Detection-DNN
 - Requirements
 Install the dependencies by running the following command:
 ```shell
-pip install -r requirement.txt
+pip install -r requirements.txt
 ```
 
 # Model training
