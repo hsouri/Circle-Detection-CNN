@@ -67,3 +67,12 @@ By default validation is using the my pretrained model. If you're willing to tes
 
 # Traing Loss
 ![Training Loss](screenshot/loss.png)
+
+
+# Validation Scores
+
+Validation scores using the metric AP 0.7 are as follows:
+
+![validation scores](screenshot/scores.png)
+
+
