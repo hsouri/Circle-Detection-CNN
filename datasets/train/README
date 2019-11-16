@@ -1,0 +1,3 @@
+@Author: Hossein Souri
+
+Please create the train dataset before training the model. To create the train set you should use dataset.py in the main directory.
