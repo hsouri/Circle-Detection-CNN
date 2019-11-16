@@ -39,7 +39,7 @@ python train.py
 You can use your own data set by changing the default dataset by the following command:
 
 ```shell
-python train.py -data {directory path to image list}
+python train.py -data {directory path to your csv train set}
 ```
 
 - Resume training from a saved model:
