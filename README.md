@@ -22,7 +22,7 @@ Install the dependencies by running the following command:
 pip install -r requirement.txt
 ```
 
-# Model train/test
+# Model training
 - Data set making
 Before trainig, train set should be created by the following command:
 
@@ -42,10 +42,26 @@ You can use your own data set by changing the default dataset by the following c
 python train.py -data {directory path to image list}
 ```
 
+- Resume training from a saved model:
+
+You are able to resume training your model from a saved checkpoint by running the following:
+
+```shell
+python train.py -resume {directory path to your saved model}
+```
+
 You can also change other attributes such as batch size, learning rate, number of epochs, number of workers, resume
 and continue training from a checkpoint. List of selectable attributes:
 
 '-name', '-out_file', '-workers', '-batch-size', '-resume', '-data', '-print_freq', '-epochs', '-start_epoch', '-save_freq'
 
+# Model Testing
+
+You can test your model on 1000 random images with level noise of 2 by running the fowwloing command:
+
+```shell
+python validation.py
+``` 
+By default validation is using the my pretrained model. If you're willing to test your own model you must change the checkpoint in the find_circle() function. 
 
 
