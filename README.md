@@ -1,5 +1,5 @@
 # Cirlcle-Detection-DNN
-This is a PyTorch implementation of a Deep Convolutional Neural Network model for detecting the parameters of a circle presents inside of a given image under the presence of noise. 
+This is a PyTorch implementation of a Deep Convolutional Neural Network model for detecting the parameters of a circle presents inside a given image under the presence of noise. 
 
 Note: This implementation is using Multi-GPUs for faster training. You can modify train.py to avoid using GPUs.
 
