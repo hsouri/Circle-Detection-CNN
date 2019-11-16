@@ -16,7 +16,7 @@ The output of the network is 3 real numbers which represents the detected row, c
 git clone https://github.com/hsouri/Cirlcle-Detection-DNN
 ```
 
--requirements
+- Requirements
 Install the dependencies by running the following command:
 ```shell
 pip install -r requirement.txt
