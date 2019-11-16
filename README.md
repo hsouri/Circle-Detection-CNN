@@ -4,4 +4,4 @@ This is a Pytorch implementation of a Deep Convolutional Neural Network model fo
 
 # Networl Architecture
 
-![alt test](screenshots/Architecture.jpg)
+![Repo List](screenshot/Architecture.jpg)
