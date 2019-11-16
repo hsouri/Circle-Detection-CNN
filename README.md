@@ -66,6 +66,7 @@ By default validation is using the my pretrained model. If you're willing to tes
 
 
 # Traing Loss
+Trinig loss of 50 epoch is as follows:
 ![Training Loss](screenshot/loss.png)
 
 
