@@ -73,6 +73,6 @@ By default validation is using the my pretrained model. If you're willing to tes
 
 Validation scores using the metric AP 0.7 are as follows:
 
-![validation scores](screenshot/score.png)
+![validation scores](screenshot/scores.png)
 
 
