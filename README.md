@@ -65,3 +65,5 @@ python validation.py
 By default validation is using the my pretrained model. If you're willing to test your own model you must change the checkpoint in the find_circle() function. 
 
 
+# Traing Loss
+![Training Loss](screenshot/loss.png)
