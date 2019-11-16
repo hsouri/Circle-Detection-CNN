@@ -22,4 +22,11 @@ Install the dependencies by running the following command:
 pip install -r requirement.txt
 ```
 
+# Model train/test
+- Data set making
+Before trainig, train set should be created by the following command:
 
+```shell
+python dataset.py
+```
+This will generate 200,000 images with randon level of noise between 0.035 and 3.5. You can create yout own train set with arbitrary number of imaages and arbitrary level of noise by changing number of images and level of noise in the train_set() function.
