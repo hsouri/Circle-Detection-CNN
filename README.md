@@ -30,3 +30,22 @@ Before trainig, train set should be created by the following command:
 python dataset.py
 ```
 This will generate 200,000 images with randon level of noise between 0.035 and 3.5. You can create yout own train set with arbitrary number of imaages and arbitrary level of noise by changing number of images and level of noise in the train_set() function.
+
+- Training:
+
+```shell
+python train.py
+```
+You can use your own data set by changing the default dataset by the following command:
+
+```shell
+python train.py -data {directory path to image list}
+```
+
+You can also change other attributes such as batch size, learning rate, number of epochs, number of workers, resume
+and continue training from a checkpoint. List of selectable attributes:
+
+'-name', '-out_file', '-workers', '-batch-size', '-resume', '-data', '-print_freq', '-epochs', '-start_epoch', '-save_freq'
+
+
+
