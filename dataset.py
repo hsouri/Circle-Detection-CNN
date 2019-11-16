@@ -30,11 +30,13 @@ def noisy_circle(size, radius, noise):
 
 
 def train_set():
+    number_of_images = 200000
+    level_of_noise = 3.5
     with open("train_set.csv", 'w', newline='') as outFile:
         header = ['NAME', 'ROW', 'COL', 'RAD']
         write(outFile, header)
-        for i in range(200000):
-            params, img = noisy_circle(200, 100, 3.5)
+        for i in range(number_of_images):
+            params, img = noisy_circle(200, 100, level_of_noise)
             np.save("datasets/train/" + str(i) + ".npy", img)
             write(outFile, ["datasets/train/" + str(i) + ".npy", params[0], params[1], params[2]])
 
