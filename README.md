@@ -15,7 +15,7 @@ The output of the network is 3 real numbers which represents the detected row, c
 **Installation**
 - Clone this repo:
 ```shell
-git clone https://github.com/hsouri/Cirlcle-Detection-DNN
+git clone https://github.com/hsouri/Cirlcle-Detection-CNN
 ```
 
 - Requirements
