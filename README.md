@@ -41,7 +41,7 @@ python train.py
 You can use your own data set by changing the default dataset by the following command:
 
 ```shell
-python train.py -data {directory path to your csv train set}
+python train.py --data {directory path to your csv train set}
 ```
 
 - Resume training from a saved model:
@@ -49,13 +49,13 @@ python train.py -data {directory path to your csv train set}
 You are able to resume training your model from a saved checkpoint by running the following:
 
 ```shell
-python train.py -resume {directory path to your saved model}
+python train.py --resume {directory path to your saved model}
 ```
 
 You can also change other attributes such as batch size, learning rate, number of epochs, number of workers, resume
 and continue training from a checkpoint. List of selectable attributes:
 
-'-name', '-out_file', '-workers', '-batch-size', '-resume', '-data', '-print_freq', '-epochs', '-start_epoch', '-save_freq'
+'--name', '--out_file', '--workers', '--batch-size', '--resume', '--data', '--print_freq', '--epochs', '--start_epoch', '--save_freq'
 
 # Model Testing
 
